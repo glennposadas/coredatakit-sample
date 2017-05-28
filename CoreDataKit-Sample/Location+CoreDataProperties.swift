@@ -16,8 +16,9 @@ extension Location {
         return NSFetchRequest<Location>(entityName: "Location")
     }
 
-    @NSManaged public var longitude: Double
     @NSManaged public var latitude: Double
+    @NSManaged public var longitude: Double
     @NSManaged public var timestamp: String?
+    @NSManaged public var user: User?
 
 }

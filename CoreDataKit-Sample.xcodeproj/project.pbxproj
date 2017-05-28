@@ -42,6 +42,7 @@
 		455828B51ED9DFEF003FF560 /* GPKit+CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GPKit+CoreDataHelper.swift"; sourceTree = "<group>"; };
 		455828B61ED9DFEF003FF560 /* GPKit+CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GPKit+CoreDataStore.swift"; sourceTree = "<group>"; };
 		455828B91ED9F440003FF560 /* FormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
+		455828C31EDADA9E003FF560 /* CoreDataKit_Sample v1.0.0_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataKit_Sample v1.0.0_2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +387,7 @@
 				4558289F1ED9D857003FF560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -393,9 +395,10 @@
 		455828921ED9D857003FF560 /* CoreDataKit_Sample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				455828C31EDADA9E003FF560 /* CoreDataKit_Sample v1.0.0_2.xcdatamodel */,
 				455828931ED9D857003FF560 /* CoreDataKit_Sample.xcdatamodel */,
 			);
-			currentVersion = 455828931ED9D857003FF560 /* CoreDataKit_Sample.xcdatamodel */;
+			currentVersion = 455828C31EDADA9E003FF560 /* CoreDataKit_Sample v1.0.0_2.xcdatamodel */;
 			path = CoreDataKit_Sample.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
